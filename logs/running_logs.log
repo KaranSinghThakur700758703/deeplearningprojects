@@ -416,3 +416,92 @@ Traceback (most recent call last):
   File "C:\Users\eswar\anaconda3\Lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
     raise MlflowException(
 mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2023-11-28 12:36:29,840: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-28 12:36:29,845: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 12:36:29,848: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 12:36:29,849: INFO: common: created directory at: artifacts]
+[2023-11-28 12:36:29,849: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-28 12:36:29,850: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-28 12:36:42,914: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-28 12:36:43,830: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-28 12:37:00,426: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-28 12:37:00,428: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 12:37:00,430: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 12:37:00,431: INFO: common: created directory at: artifacts]
+[2023-11-28 12:37:00,431: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-28 12:37:00,432: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-28 12:37:12,664: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-28 12:37:13,541: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-28 12:39:08,485: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-28 12:39:08,488: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 12:39:08,490: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 12:39:08,490: INFO: common: created directory at: artifacts]
+[2023-11-28 12:39:08,491: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-28 12:39:08,491: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-28 12:39:20,565: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-28 12:39:21,398: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-28 12:39:36,671: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-11-28 12:39:37,682: INFO: stage_02_prepare_base_model: *******************]
+[2023-11-28 12:39:37,682: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2023-11-28 12:39:37,685: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 12:39:37,687: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 12:39:37,687: INFO: common: created directory at: artifacts]
+[2023-11-28 12:39:37,688: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-28 12:39:38,292: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-28 12:39:38,569: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-11-28 12:40:39,365: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-11-28 12:40:40,359: INFO: stage_02_prepare_base_model: *******************]
+[2023-11-28 12:40:40,359: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2023-11-28 12:40:40,361: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 12:40:40,363: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 12:40:40,364: INFO: common: created directory at: artifacts]
+[2023-11-28 12:40:40,364: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-28 12:40:40,969: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-28 12:40:41,257: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-11-28 12:40:48,937: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-11-28 12:40:49,968: INFO: stage_03_model_training: *******************]
+[2023-11-28 12:40:49,969: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2023-11-28 12:40:49,971: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 12:40:49,973: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 12:40:49,974: INFO: common: created directory at: artifacts]
+[2023-11-28 12:40:49,974: INFO: common: created directory at: artifacts\training]
+[2023-11-28 12:43:21,730: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-11-28 12:47:25,946: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-11-28 12:47:26,986: INFO: stage_03_model_training: *******************]
+[2023-11-28 12:47:26,986: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2023-11-28 12:47:26,989: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 12:47:26,991: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 12:47:26,992: INFO: common: created directory at: artifacts]
+[2023-11-28 12:47:26,992: INFO: common: created directory at: artifacts\training]
+[2023-11-28 12:49:56,701: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-11-28 12:50:05,260: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-11-28 12:50:08,716: INFO: stage_04_model_evaluation: *******************]
+[2023-11-28 12:50:08,717: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-11-28 12:50:08,720: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-28 12:50:08,722: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-28 12:50:08,722: INFO: common: created directory at: artifacts]
+[2023-11-28 12:50:32,383: INFO: common: json file saved at: scores.json]
+[2023-11-28 12:50:32,384: INFO: common: json file saved at: scores.json]
+[2023-11-28 12:50:34,667: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-28 12:50:35,939: INFO: builder_impl: Assets written to: C:\Users\eswar\AppData\Local\Temp\tmp_jqva9t6\model\data\model\assets]
+[2023-11-28 12:50:48,672: INFO: dir_util: creating C:\Users\eswar\deeplearningprojects\mlruns\0\ea818413d37a4656b67e8910892cdf8e\artifacts\model\data]
+[2023-11-28 12:50:48,675: INFO: dir_util: creating C:\Users\eswar\deeplearningprojects\mlruns\0\ea818413d37a4656b67e8910892cdf8e\artifacts\model\data\model]
+[2023-11-28 12:50:48,676: INFO: dir_util: creating C:\Users\eswar\deeplearningprojects\mlruns\0\ea818413d37a4656b67e8910892cdf8e\artifacts\model\data\model\assets]
+[2023-11-28 12:50:48,681: INFO: dir_util: creating C:\Users\eswar\deeplearningprojects\mlruns\0\ea818413d37a4656b67e8910892cdf8e\artifacts\model\data\model\variables]
+[2023-11-28 12:50:48,803: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
