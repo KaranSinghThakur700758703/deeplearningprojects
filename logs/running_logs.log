@@ -505,3 +505,14 @@ x==========x]
 [2023-11-28 12:50:48,803: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-11-28 13:03:05,963: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-11-28 13:03:07,011: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.10.50:8080]
+[2023-11-28 13:03:07,011: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2023-11-28 13:03:44,035: INFO: _internal: 127.0.0.1 - - [28/Nov/2023 13:03:44] "GET / HTTP/1.1" 200 -]
+[2023-11-28 13:03:58,898: INFO: _internal: 127.0.0.1 - - [28/Nov/2023 13:03:58] "POST /predict HTTP/1.1" 200 -]
+[2023-11-28 13:05:02,204: INFO: _internal: 127.0.0.1 - - [28/Nov/2023 13:05:02] "POST /predict HTTP/1.1" 200 -]
+[2023-11-28 13:05:17,177: INFO: _internal: 127.0.0.1 - - [28/Nov/2023 13:05:17] "POST /predict HTTP/1.1" 200 -]
+[2023-11-28 13:05:30,069: INFO: _internal: 127.0.0.1 - - [28/Nov/2023 13:05:30] "POST /predict HTTP/1.1" 200 -]
