@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/eswar/deeplearningprojects/mlruns/0/159912e17d55476ab087f804b5b75e87/artifacts
+end_time: 1701190669000
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 159912e17d55476ab087f804b5b75e87
+run_name: painted-crab-390
+run_uuid: 159912e17d55476ab087f804b5b75e87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701190652140
+status: 3
+tags: []
+user_id: eswar
