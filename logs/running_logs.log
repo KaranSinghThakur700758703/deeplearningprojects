@@ -698,3 +698,131 @@ x==========x]
 [2023-11-29 02:46:40,528: INFO: _internal: 127.0.0.1 - - [29/Nov/2023 02:46:40] "POST /predict HTTP/1.1" 200 -]
 [2023-11-29 02:46:51,323: INFO: _internal: 127.0.0.1 - - [29/Nov/2023 02:46:51] "POST /predict HTTP/1.1" 200 -]
 [2023-11-29 02:47:12,734: INFO: _internal: 127.0.0.1 - - [29/Nov/2023 02:47:12] "POST /predict HTTP/1.1" 200 -]
+[2023-11-29 02:53:29,183: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-29 02:53:29,187: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 02:53:29,198: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 02:53:29,199: INFO: common: created directory at: artifacts]
+[2023-11-29 02:53:29,200: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-29 02:53:29,200: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-29 02:53:39,975: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-29 02:53:40,827: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-29 02:53:40,837: INFO: main: *******************]
+[2023-11-29 02:53:40,846: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-11-29 02:53:40,860: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 02:53:40,865: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 02:53:40,866: INFO: common: created directory at: artifacts]
+[2023-11-29 02:53:40,866: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-29 02:53:40,867: ERROR: main: The `weights` argument should be either `None` (random initialization), `imagenet` (pre-training on ImageNet), or the path to the weights file to be loaded.  Received: weights=None]
+Traceback (most recent call last):
+  File "main.py", line 29, in <module>
+    prepare_base_model.main()
+  File "c:\users\eswar\deeplearningprojects\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 17, in main
+    prepare_base_model.get_base_model()
+  File "c:\users\eswar\deeplearningprojects\src\cnnClassifier\components\prepare_base_model.py", line 15, in get_base_model
+    self.model = tf.keras.applications.vgg16.VGG16(
+  File "C:\Users\eswar\anaconda3\envs\kidney\lib\site-packages\keras\applications\vgg16.py", line 122, in VGG16
+    raise ValueError(
+ValueError: The `weights` argument should be either `None` (random initialization), `imagenet` (pre-training on ImageNet), or the path to the weights file to be loaded.  Received: weights=None
+[2023-11-29 02:55:22,113: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-29 02:55:22,117: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 02:55:22,121: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 02:55:22,122: INFO: common: created directory at: artifacts]
+[2023-11-29 02:55:22,122: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-29 02:55:22,123: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-29 02:55:32,572: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-29 02:55:33,424: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-29 02:55:33,424: INFO: main: *******************]
+[2023-11-29 02:55:33,425: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-11-29 02:55:33,429: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 02:55:33,431: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 02:55:33,432: INFO: common: created directory at: artifacts]
+[2023-11-29 02:55:33,433: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-29 02:55:33,433: ERROR: main: The `weights` argument should be either `None` (random initialization), `imagenet` (pre-training on ImageNet), or the path to the weights file to be loaded.  Received: weights=None]
+Traceback (most recent call last):
+  File "main.py", line 29, in <module>
+    prepare_base_model.main()
+  File "c:\users\eswar\deeplearningprojects\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 17, in main
+    prepare_base_model.get_base_model()
+  File "c:\users\eswar\deeplearningprojects\src\cnnClassifier\components\prepare_base_model.py", line 15, in get_base_model
+    self.model = tf.keras.applications.vgg16.VGG16(
+  File "C:\Users\eswar\anaconda3\envs\kidney\lib\site-packages\keras\applications\vgg16.py", line 122, in VGG16
+    raise ValueError(
+ValueError: The `weights` argument should be either `None` (random initialization), `imagenet` (pre-training on ImageNet), or the path to the weights file to be loaded.  Received: weights=None
+[2023-11-29 02:56:16,076: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-29 02:56:16,081: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 02:56:16,091: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 02:56:16,091: INFO: common: created directory at: artifacts]
+[2023-11-29 02:56:16,092: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-29 02:56:16,092: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-29 02:56:26,588: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-29 02:56:27,600: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-29 02:56:27,600: INFO: main: *******************]
+[2023-11-29 02:56:27,602: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-11-29 02:56:27,609: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 02:56:27,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 02:56:27,613: INFO: common: created directory at: artifacts]
+[2023-11-29 02:56:27,614: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-29 02:56:27,615: ERROR: main: When setting `include_top=True` and loading `imagenet` weights, `input_shape` should be (224, 224, 3).  Received: input_shape=[224, 224, 3]]
+Traceback (most recent call last):
+  File "main.py", line 29, in <module>
+    prepare_base_model.main()
+  File "c:\users\eswar\deeplearningprojects\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 17, in main
+    prepare_base_model.get_base_model()
+  File "c:\users\eswar\deeplearningprojects\src\cnnClassifier\components\prepare_base_model.py", line 15, in get_base_model
+    self.model = tf.keras.applications.vgg16.VGG16(
+  File "C:\Users\eswar\anaconda3\envs\kidney\lib\site-packages\keras\applications\vgg16.py", line 137, in VGG16
+    input_shape = imagenet_utils.obtain_input_shape(
+  File "C:\Users\eswar\anaconda3\envs\kidney\lib\site-packages\keras\applications\imagenet_utils.py", line 367, in obtain_input_shape
+    raise ValueError(
+ValueError: When setting `include_top=True` and loading `imagenet` weights, `input_shape` should be (224, 224, 3).  Received: input_shape=[224, 224, 3]
+[2023-11-29 02:57:20,632: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-11-29 02:57:20,636: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 02:57:20,648: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 02:57:20,649: INFO: common: created directory at: artifacts]
+[2023-11-29 02:57:20,649: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-11-29 02:57:20,650: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-29 02:57:30,836: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2023-11-29 02:57:31,782: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-11-29 02:57:31,782: INFO: main: *******************]
+[2023-11-29 02:57:31,783: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-11-29 02:57:31,787: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 02:57:31,789: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 02:57:31,790: INFO: common: created directory at: artifacts]
+[2023-11-29 02:57:31,790: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-11-29 02:57:32,540: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-11-29 02:57:33,101: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2023-11-29 02:57:33,101: INFO: main: *******************]
+[2023-11-29 02:57:33,103: INFO: main: >>>>>> stage Training started <<<<<<]
+[2023-11-29 02:57:33,111: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 02:57:33,115: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 02:57:33,116: INFO: common: created directory at: artifacts]
+[2023-11-29 02:57:33,117: INFO: common: created directory at: artifacts\training]
+[2023-11-29 03:08:37,662: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2023-11-29 03:08:37,662: INFO: main: *******************]
+[2023-11-29 03:08:37,664: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2023-11-29 03:08:37,675: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-11-29 03:08:37,681: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-11-29 03:08:37,683: INFO: common: created directory at: artifacts]
+[2023-11-29 03:09:02,170: INFO: common: json file saved at: scores.json]
+[2023-11-29 03:09:02,172: INFO: common: json file saved at: scores.json]
+[2023-11-29 03:09:05,587: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2023-11-29 03:09:07,417: INFO: builder_impl: Assets written to: C:\Users\eswar\AppData\Local\Temp\tmp6ucd8dgo\model\data\model\assets]
+[2023-11-29 03:09:23,377: INFO: dir_util: creating C:\Users\eswar\deeplearningprojects\mlruns\0\1abbaaaae55849e48d7b669acf7414ec\artifacts\model\data]
+[2023-11-29 03:09:23,379: INFO: dir_util: creating C:\Users\eswar\deeplearningprojects\mlruns\0\1abbaaaae55849e48d7b669acf7414ec\artifacts\model\data\model]
+[2023-11-29 03:09:23,381: INFO: dir_util: creating C:\Users\eswar\deeplearningprojects\mlruns\0\1abbaaaae55849e48d7b669acf7414ec\artifacts\model\data\model\assets]
+[2023-11-29 03:09:23,387: INFO: dir_util: creating C:\Users\eswar\deeplearningprojects\mlruns\0\1abbaaaae55849e48d7b669acf7414ec\artifacts\model\data\model\variables]
+[2023-11-29 03:09:23,554: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
