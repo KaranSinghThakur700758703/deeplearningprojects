@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/eswar/deeplearningprojects/mlruns/0/e43ab08bf210440992ad7c8023647059/artifacts
+end_time: 1701250160366
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e43ab08bf210440992ad7c8023647059
+run_name: luxuriant-cow-965
+run_uuid: e43ab08bf210440992ad7c8023647059
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701250143855
+status: 3
+tags: []
+user_id: eswar
