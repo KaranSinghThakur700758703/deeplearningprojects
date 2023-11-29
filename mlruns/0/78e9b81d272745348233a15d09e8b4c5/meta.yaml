@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/eswar/deeplearningprojects/mlruns/0/78e9b81d272745348233a15d09e8b4c5/artifacts
+end_time: 1701242020302
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 78e9b81d272745348233a15d09e8b4c5
+run_name: kindly-slug-861
+run_uuid: 78e9b81d272745348233a15d09e8b4c5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701242002912
+status: 3
+tags: []
+user_id: eswar
